@@ -1,0 +1,17 @@
+{
+    "name": "karam-araby/php-mvc",
+    "description": "A simple, quick and easy to use PHP MVC.",
+    "license": "The MIT License",
+    "authors": [
+        {
+            "name": "Karam Araby",
+            "email": "karam.araby@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.12",
+        "illuminate/database": "5.1.*",
+        "zeuxisoo/slim-whoops": "0.6.*",
+        "robmorgan/phinx": "^0.11.1"
+    }
+}
