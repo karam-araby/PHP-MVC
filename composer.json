@@ -1,7 +1,6 @@
 {
     "name": "karam-araby/php-mvc",
     "description": "A simple, quick and easy to use PHP MVC.",
-    "license": "The MIT License",
     "authors": [
         {
             "name": "Karam Araby",
