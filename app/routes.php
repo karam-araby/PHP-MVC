@@ -1,9 +1,9 @@
 <?php
 
 $app->group('/api/v1', function($app) {
-$app->get('/store/user/{id}', function ($request, $response,$id) {
-    $products = App\Models\Store::where('user_id',$id)->get();
-    return $this->response->withJson($products);
+$app->get('users', function ($request, $response,$id) {
+    $users = App\Models\User::all();
+    return $this->response->withJson($users);
 });
 })
 ?>
